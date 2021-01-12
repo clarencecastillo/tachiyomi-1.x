@@ -2,6 +2,7 @@ plugins {
   kotlin("jvm")
   id("com.jfrog.bintray")
   id("maven-publish")
+  id("maven")
 }
 
 dependencies {
@@ -9,6 +10,9 @@ dependencies {
 }
 
 val packageVersion = "1.1"
+
+group = "tachiyomi.sourceapi"
+version = "1.1-SNAPSHOT"
 
 java {
   withJavadocJar()

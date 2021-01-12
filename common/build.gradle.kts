@@ -3,6 +3,7 @@ plugins {
   id("kotlin-kapt")
   id("com.jfrog.bintray")
   id("maven-publish")
+  id("maven")
 }
 
 dependencies {
